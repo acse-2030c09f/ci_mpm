@@ -1,7 +1,6 @@
-from multiprocessing.connection import answer_challenge
+from multiprocessing.connection import answer_challenge # noqa
 import pytest
-
-from simple_functions import functions1, my_sum, factorial
+from simple_functions import functions1, my_sum, factorial # noqa
 
 
 class TestSimpleFunctions(object):
